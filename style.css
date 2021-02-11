@@ -1,0 +1,338 @@
+body{
+  text-align:center;
+  width:100%;
+}
+
+.top-container{
+  color:#115840;
+}
+
+.welcome-wrapper{
+  text-align:center;
+}
+
+.welcome{
+  width:100%;
+  background-color:#dbf6e9;
+  font-family: 'Potta One', cursive;
+  font-size:25px;
+}
+
+.photo{
+  height:400px;
+  width:400px;
+  border-radius:100%;
+  border-left: 12.5px solid #29ea89;
+  border-right: 12.5px solid #29ea89;
+  margin-top:100px;
+}
+.photo:hover{
+    height:500px;
+    width:500px;
+    border-top: 10px solid #1b262c;
+    border-bottom: 10px solid #1b262c;
+    border-left: 10px solid #29ea89;
+    border-right: 10px solid #29ea89;
+
+}
+
+.name_line{
+  font-family: 'Berkshire Swash', cursive;
+  font-size:40px;
+  font-weight:bold;
+  color:#115840;
+}
+
+.bio{
+font-size:30px;
+font-family: 'Berkshire Swash', cursive;
+}
+
+.palak{
+  height:600px;
+  width:450px;
+  text-align:center;
+  margin-top:50px;
+  border-left: 12.5px solid #1b262c;
+  border-right: 12.5px solid #1b262c;
+}
+.palak:hover{
+  height:650px;
+  width:500px;
+  border: 10px solid #1b262c;
+}
+.plk{
+  font-size:50px;
+}
+.sister{
+  font-family: 'Berkshire Swash', cursive;
+  background:url("back.jpg");
+  background-size: cover;
+  padding:80px;
+  font-size:20px;
+}
+
+.content-wrapper{
+  margin:100px auto;
+  background-color:white;
+}
+.hobbies{
+    background-color:white;
+}
+.hobby-head{
+  padding-left:400px;
+  padding-right:100px;
+  display:inline-block;
+  float:left;
+}
+.list{
+  list-style-position:inside;
+  list-style:none;
+  text-align:left;
+  margin-left:40px;
+  line-height:50px;
+}
+
+.achieve{
+    background-color:white;
+    margin-top:100px;
+}
+
+.achieve-head{
+  float:right;
+  padding-right:300px;
+}
+.insta{
+  height:70px;
+  width:70px;
+
+}
+.footer{
+  background-color:#dbf6e9;
+  color:#115840;
+  font-family: 'Potta One', cursive;
+  font-size:20px;
+}
+@media(max-width:670px){
+  .land{
+    width:75%
+  }
+  .welcome{
+    font-size:15px;
+  }
+  .hi{
+    height:110px;
+    width:115px;
+  }
+  .photo{
+    height:45%;
+    width:45%;
+    border-radius:100%;
+    border-left: 7.5px solid #29ea89;
+    border-right: 7.5px solid #29ea89;
+    margin-top:60px;
+  }
+  .photo:hover{
+    height:65%;
+    width:65%;
+    border-radius:100%;
+    border-left: 9.5px solid #29ea89;
+    border-right: 9.5px solid #29ea89;
+    margin-top:80px;
+  }
+
+  .photo:active{
+    height:65%;
+    width:65%;
+    border-radius:100%;
+    border-left: 9.5px solid #29ea89;
+    border-right: 9.5px solid #29ea89;
+    margin-top:80px;
+  }
+
+  .name_line{
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    font-size:25px;
+    width:60%;
+  }
+
+  .bio{
+    font-size:18px;
+  }
+
+  .plk{
+    font-size:25px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .palak{
+    width:60%;
+    height:75%;
+    margin-top:20px;
+    border-left: 7.5px solid #1b262c;
+    border-right: 7.5px solid #1b262c;
+  }
+
+  .palak:hover{
+    width:70%;
+    height:85%;
+    border: 10px solid #1b262c;
+  }
+  .palak:active{
+    width:70%;
+    height:85%;
+    border: 10px solid #1b262c;
+  }
+
+  .sister{
+    padding:35px;
+  }
+
+  .content-wrapper{
+    margin:20% auto;
+  }
+
+  .heading{
+    margin:40px auto;
+    padding-left:20%;
+    float:none;
+    text-align:center;
+  }
+
+  .list{
+    list-style:disc;
+    text-align:left;
+    margin-left:15%;
+    line-height:50px;
+    font-size:15px;
+  }
+
+  .achieve-head{
+    padding-right:15%;;
+  }
+
+
+  .insta{
+    height:35%;
+    width:10%;
+
+  }
+
+  .footer{
+    font-size:15px;
+    margin:auto;
+  }
+
+}
+@media(max-width:1000px){
+  .land{
+    width:75%
+  }
+
+  .photo{
+    height:45%;
+    width:45%;
+    border-radius:100%;
+    border-left: 9.5px solid #29ea89;
+    border-right: 9.5px solid #29ea89;
+    margin-top:90px;
+  }
+  .photo:hover{
+    height:65%;
+    width:65%;
+    border-radius:100%;
+    border-left: 11.5px solid #29ea89;
+    border-right: 11.5px solid #29ea89;
+    margin-top:80px;
+  }
+
+  .photo:active{
+    height:65%;
+    width:65%;
+    border-radius:100%;
+    border-left: 11.5px solid #29ea89;
+    border-right: 11.5px solid #29ea89;
+    margin-top:80px;
+  }
+
+  .name_line{
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    font-size:25px;
+    width:80%;
+  }
+
+  .bio{
+    font-size:25px;
+  }
+
+  .plk{
+    font-size:35px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .palak{
+    width:60%;
+    height:75%;
+    margin-top:20px;
+    border-left: 9.5px solid #1b262c;
+    border-right: 9.5px solid #1b262c;
+  }
+
+  .palak:hover{
+    width:70%;
+    height:85%;
+    border: 10px solid #1b262c;
+  }
+  .palak:active{
+    width:70%;
+    height:85%;
+    border: 10px solid #1b262c;
+  }
+
+  .sister{
+    padding:35px;
+  }
+
+  .content-wrapper{
+    margin:20% auto;
+  }
+
+  .heading{
+    margin:40px auto;
+    padding-left:20%;
+    float:none;
+    text-align:center;
+    font-size:30px;
+  }
+
+  .list{
+    list-style:disc;
+    text-align:left;
+    margin-left:15%;
+    line-height:50px;
+    font-size:22px;
+  }
+
+  .achieve-head{
+    padding-right:15%;
+  }
+
+
+  .insta{
+    height:25%;
+    width:7%;
+
+  }
+
+  .footer{
+    font-size:15px;
+    margin:auto;
+  }
+
+}
