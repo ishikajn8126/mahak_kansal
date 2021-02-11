@@ -211,9 +211,13 @@ font-family: 'Berkshire Swash', cursive;
   }
 
   .achieve-head{
-    padding-right:15%;;
+    padding-right:15%;
+    font-size:25px;
   }
 
+  .hobby-head{
+    font-size:25px;
+  }
 
   .insta{
     height:35%;
